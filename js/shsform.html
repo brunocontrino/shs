@@ -1,0 +1,112 @@
+<html> 
+
+  <head>
+  <script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+  </head>
+  <body>
+<script> var myDataRef = new Firebase('https://blinding-fire-6121.firebaseio.com/');</script>
+  	<form action= post=>
+ 
+    Adress: <input type="text" name = "adress" > 
+    <br>
+    Number of Bedrooms: <input type= "text" name="bedrooms">
+    <br>    
+    Rent Per Week: <input type="text" name = "rent">
+    <br>   
+    Deposit: <input type="text" name = "deposit">
+    <br>
+    Deposit returned: <input type="text" name+"deposit returned"> 
+    <br>
+    Quality of Furnishings
+    <br>
+  	<input type="radio" name= "qfur" value = 1> Very Poor
+  	<input type="radio" name= "qfur" value = 2> Poor 
+  	<input type="radio" name= "qfur" value = 3> Average 
+  	<input type="radio" name= "qfur" value = 4> Good 
+  	<input type="radio" name= "qfur" value = 5> Very Good  
+
+    <br>
+    Location 
+    <br>
+    <input type="radio" name= "loc" value = 1> Very Poor
+    <input type="radio" name= "loc" value = 2> Poor 
+    <input type="radio" name= "loc" value = 3> Average 
+    <input type="radio" name= "loc" value = 4> Good 
+    <input type="radio" name= "loc" value = 5> Very Good 
+
+    <br>
+    Condition of House 
+    <br>
+    <input type="radio" name= "con" value = 1> Very Poor
+    <input type="radio" name= "con" value = 2> Poor 
+    <input type="radio" name= "con" value = 3> Average 
+    <input type="radio" name= "con" value = 4> Good 
+    <input type="radio" name= "con" value = 5> Very Good 
+
+    <br>
+    Quality of Appliances
+    <br>
+    <input type="radio" name= "qapp" value = 1> Very Poor
+    <input type="radio" name= "qapp" value = 2> Poor 
+    <input type="radio" name= "qapp" value = 3> Average 
+    <input type="radio" name= "qapp" value = 4> Good 
+    <input type="radio" name= "qapp" value = 5> Very Good 
+
+      <br>
+      Name of Estate Agent or Landlord:
+      <br>
+      <input type="text" name="nam">
+      <br>
+      Overall Rating
+      <br>
+      <input type="radio" name= "orat" value = 1> Very Poor
+      <input type="radio" name= "orat" value = 2> Poor 
+      <input type="radio" name= "orat" value = 3> Average 
+      <input type="radio" name= "orat" value = 4> Good 
+      <input type="radio" name= "orat" value = 5> Very Good  
+
+      <br>
+      Efficiency of Problem Solving:
+      <br>
+      <input type="radio" name= "eff" value = 1> Very Poor
+      <input type="radio" name= "eff" value = 2> Poor 
+      <input type="radio" name= "eff" value = 3> Average 
+      <input type="radio" name= "eff" value = 4> Good 
+      <input type="radio" name= "eff" value = 5> Very Good  
+      <br>
+       Quality of Problem Solving:
+      <br>
+      <input type="radio" name= "qps" value = 1> Very Poor
+      <input type="radio" name= "qps" value = 2> Poor 
+      <input type="radio" name= "qps" value = 3> Average 
+      <input type="radio" name= "qps" value = 4> Good 
+      <input type="radio" name= "qps" value = 5> Very Good  
+      <br>
+      Reliability
+      <br>
+      <input type="radio" name= "rel" value = 1> Very Poor
+      <input type="radio" name= "rel" value = 2> Poor 
+      <input type="radio" name= "rel" value = 3> Average 
+      <input type="radio" name= "rel" value = 4> Good 
+      <input type="radio" name= "rel" value = 5> Very Good  
+      <br>
+      Your Relationship with Landlord or Estate Agent
+      <br>
+      <input type="radio" name= "relationship" value = 1> Very Poor
+      <input type="radio" name= "relationship" value = 2> Poor 
+      <input type="radio" name= "relationship" value = 3> Average 
+      <input type="radio" name= "relationship" value = 4> Good 
+      <input type="radio" name= "relationship" value = 5> Very Good  
+      <br>
+      Additional Comments:
+      <br>
+      <textarea name='comment' id='comment'>
+      </textarea>
+      <br>
+      <input type="submit" value = "Submit">
+      <input type="reset"  value = "Reset">
+      <br>
+      </form>
+
+  </body>
+</html>
